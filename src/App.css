@@ -1,34 +1,41 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
-.main-page{width: 100%;
-  display: flex;
+.main-page {
+    width: 100%;
+    display: flex;
 }
-.editor,.output{
-  height: 100vh;
-  flex: 1;
-  border: #282c34 solid 20px;
+
+.editor, .output {
+    height: 100vh;
+    flex: 1;
+    border: #282c34 solid 20px;
 }
-.editor{
-  font-size: 20px;
+
+.editor {
+    font-size: 20px;
 }
-.output{
-  background-color: white;
-  color: black;
+
+.output {
+    background-color: white;
+    color: black;
+    text-align: left;
 }
-.heading{
-  border-bottom: black solid 2px;
+
+.heading {
+    border-bottom: black solid 2px;
 }
+
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 

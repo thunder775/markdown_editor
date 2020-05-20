@@ -15,6 +15,8 @@ export default function Editor() {
         return `<li >${g}</li>`
     }).replace(/^---(.*)/gm, (m, g) => {
         return `<hr/>`
+    }).replace(/\n/gm, (m, g) => {
+        return `<br/>`
     });
     return (
         <div className={'main-page'}>
